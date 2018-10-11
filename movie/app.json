@@ -1,6 +1,6 @@
 {
   "pages":[
-    "pages/read/read",
+    "pages/news/read",
     "pages/welcome/welcome"
   ],
   "window":{
