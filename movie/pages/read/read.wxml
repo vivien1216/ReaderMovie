@@ -1,6 +1,6 @@
 <!--pages/read/read.wxml-->
 <view>
-  <swiper indicator-dots="{{indicatorDots}}"
+  <swiper class="container" indicator-dots="{{indicatorDots}}"
     autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
       <swiper-item>
         <image src="/images/wx.png" class="slide-image" />
