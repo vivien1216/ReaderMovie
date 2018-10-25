@@ -2,7 +2,7 @@
 <view class="container">
   <image class="avatar" src="/images/avatar/1.jpg"></image>
   <text class="moto">Hello vivien</text>
-  <view class="journary-content"> 
+  <view class="journary-content" bindtap='onTap'> 
     <text>开启小程序之旅</text>
   </view>
 </view>
