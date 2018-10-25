@@ -1,4 +1,5 @@
 // pages/read/read.js
+var newsData = require('../../data/news-data.js')
 Page({
 
   /**
@@ -9,5 +10,10 @@ Page({
     autoplay: true,
     interval: 4000,
     duration: 1000
+  },
+  onLoad: function () {
+    this.setData ({
+      newsList: newsData.postList
+    });
   }
 })
