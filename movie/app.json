@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/welcome/welcome",
-    "pages/news/read"
+    "pages/news/read",
+    "pages/news/news-detail/news-detail"
   ],
   "window":{
     "backgroundTextStyle":"light",

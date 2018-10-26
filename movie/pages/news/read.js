@@ -15,5 +15,11 @@ Page({
     this.setData ({
       newsList: newsData.postList
     });
+  },
+  onNewsTap: function (event) {
+    var postId = event.currentTarget.dataset.postid;
+    wx.navigateTo({
+      url: './news-detail/news-detail?id=' + postId,
+    })
   }
 })
