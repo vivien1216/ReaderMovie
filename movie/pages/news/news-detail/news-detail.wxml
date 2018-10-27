@@ -1,7 +1,7 @@
 <!--pages/news/news-detail/news-detail.wxml-->
 <view class="container">
-  <image class="post-img" src="{{postData.headImgSrc}}"></image>
-  <image class="music-img" src="/images/music/music-start.png"></image>
+  <image class="post-img" src="{{isPlayingMusic?postData.music.coverImg:postData.headImgSrc}}"></image>
+  <image class="music-img" catchtap="onMusicTap" src="{{isPlayingMusic? '/images/music/music-stop.png' : '/images/music/music-start.png'}}"></image>
   <view class="author">
     <image class="author-img" src="{{postData.avatar}}"></image>
     <text class="author-name">{{postData.author}}</text>
