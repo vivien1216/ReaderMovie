@@ -1,8 +1,8 @@
 <import src="../stars/stars-template.wxml" />
-<template name="movie">
+<template name="movieTemplate">
   <view class="movie-container">
-    <image class="movie-img" src="/images/post/movie.jpg"></image>
-    <text class="movie-title">霸王别姬</text>
-    <template is="stars" />
+    <image class="movie-img" src="{{coverageUrl}}"></image>
+    <text class="movie-title">{{title}}</text>
+    <template is="stars" data="{{stars:stars,score:average}}" />
   </view>
 </template>

@@ -6,12 +6,12 @@
 </view>
 <view class="container">
   <view class="movie-template">
-    <template is="movieListTemplate" />
+    <template is="movieListTemplate" data="{{...inTheaters}}" />
   </view>
   <view class="movie-template">
-    <template is="movieListTemplate" />
+    <template is="movieListTemplate" data="{{...comingSoon}}" />
   </view>
   <view class="movie-template">
-    <template is="movieListTemplate" />
+    <template is="movieListTemplate" data="{{...top250}}" />
   </view>
 </view>
