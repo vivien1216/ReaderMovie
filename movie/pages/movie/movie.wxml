@@ -1,2 +1,17 @@
 <!--pages/movie/movie.wxml-->
-<text>pages/movie/movie.wxml</text>
+<import src="movie-list/movie-list-template.wxml" />
+<view class="search">
+  <icon type="search" class="search-img" size="13" color="#405f80"></icon>
+  <input type="text" placeholder='你的名字、霸王别姬' placeholder-class='placeholder'></input>
+</view>
+<view class="container">
+  <view class="movie-template">
+    <template is="movieListTemplate" />
+  </view>
+  <view class="movie-template">
+    <template is="movieListTemplate" />
+  </view>
+  <view class="movie-template">
+    <template is="movieListTemplate" />
+  </view>
+</view>

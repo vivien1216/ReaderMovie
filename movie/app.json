@@ -3,7 +3,8 @@
     "pages/welcome/welcome",
     "pages/news/read",
     "pages/news/news-detail/news-detail",
-    "pages/movie/movie"
+    "pages/movie/movie",
+    "pages/movie/more-movie/more-movie"
   ],
   "window":{
     "backgroundTextStyle":"light",
