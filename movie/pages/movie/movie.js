@@ -43,8 +43,9 @@ Page({
   },
 
   onMoreMovie: function(event) {
+    var category = event.currentTarget.dataset.category;
     wx.navigateTo({
-      url: 'more-movie/more-movie',
+      url: 'more-movie/more-movie?category=' + category,
     })
   },
 
