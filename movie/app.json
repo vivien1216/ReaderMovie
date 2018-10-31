@@ -16,13 +16,13 @@
     "list": [{
       "pagePath": "pages/news/read",
       "text": "阅读",
-      "iconPath": "/images/tab/yuedu.png",
-      "selectedIconPath": "/images/tab/yuedu_hl.png"
+      "iconPath": "images/tab/yuedu.png",
+      "selectedIconPath": "images/tab/yuedu_hl.png"
     },{
       "pagePath": "pages/movie/movie",
       "text": "电影",
-      "iconPath": "/images/tab/dianying.png",
-      "selectedIconPath": "/images/tab/dianying_hl.png"
+      "iconPath": "images/tab/dianying.png",
+      "selectedIconPath": "images/tab/dianying_hl.png"
     }]
   }
 }

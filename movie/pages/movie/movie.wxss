@@ -1,5 +1,6 @@
 /* pages/movie/movie.wxss */
 @import "movie-list/movie-list-template.wxss";
+@import "movie-grid/movie-grid-template.wxss";
 
 .search {
   width: 500rpx;
@@ -25,6 +26,12 @@
   font-size: 14px;
   color:#d1d1d1;
   margin-left: 20rpx;
+}
+
+.cancel-img{
+  width: 20rpx;
+  height: 20rpx;
+  margin: auto 20rpx;
 }
 .container{
   background-color:#f2f2f2;
