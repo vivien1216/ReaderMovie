@@ -70,5 +70,6 @@
 .content{
   padding-left: 10rpx;
   padding-right: 10rpx;
+  padding-bottom: 10rpx;
   line-height: 30rpx;
 }
